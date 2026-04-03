@@ -21,31 +21,9 @@ This project solves all of the above problems by creating a **centralized docume
 ## ✅ Solution
 
 DocManager solves all of the above in a single local web app:
-
--   **Upload** any PDF with metadata(tags, a description, and an optional lecture date)
--   **Search** pdf instantly by tag (substring match) or by date
--   **Browse** results with auto-generated cover thumbnails
--   **Read** page-by-page directly in the browser — no PDF plugin needed
--   **Track progress** automatically — every page you view is recorded, and reading progress is shown as a percentage
--   **Analyse** clickstream data to track user interactions across our platform.
-
-Everything runs on browser, no accounts, no dependencies outside the machine.
-
 ---
 
 ## ✨ Features
-
-1.  📤 **PDF Upload**: Upload a PDF with tags, description, and optional lecture date
-
-🖼️ **Auto Thumbnail**: Cover image generated from page 0 of each PDF
-
-🔍 **Smart Search**: Search by tag (LIKE) or date (exact). Results shown with thumbnails
-
-📖 **In-Browser Reader**: Page-by-page reading — PDFs pre-rendered to PNG at 2× resolution
-
-📊 **Analytics Dashboard**: Bar chart of app events + per-document reading progress table
-
-🔐 **Admin Panel** Password-protected full reset of database and file storage
 
 1.  **Document Upload & Storage**
 
@@ -55,9 +33,11 @@ Everything runs on browser, no accounts, no dependencies outside the machine.
     1.  File name
     2.  Tags
     3.  Description
-    4.  Date (Optional)Auto Thumbnail: Cover image generated from page 0 of each PDF
+    4.  Date (Optional)
+   
+Auto Thumbnail: Cover image generated from page 0 of each PDF
 
-2.  **Smart Search** Search documents using:1. Tags (LIKE)2. Date (exact)
+1.  **Smart Search** Search documents using:1. Tags (LIKE)2. Date (exact)
 
 Results shown with thumbnails
 
@@ -72,9 +52,12 @@ This way, we Eliminates manual file browsing
     3.  Open Document
     4.  Previous
     5.  Next
-    6.  Close **Analytics Dashboard**: Bar chart of app events + per-document reading progress table
-5.  **Clean storage using Admin Control**Delete all thumbnails, pdfs and images stored in the local storage to clean up the space. Password-protected full reset of database and file storage option is available.
-    
+    6.  Close 
+   
+5. **Analytics Dashboard**: Bar chart of app events + per-document reading progress table
+6. **Clean storage using Admin Control**Delete all thumbnails, pdfs and images stored in the local storage to clean up the space. Password-protected full reset of database and file storage option is available.
+
+Everything runs on browser, no accounts, no dependencies outside the machine.   
 
 ---
 
